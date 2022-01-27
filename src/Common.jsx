@@ -7,10 +7,10 @@ import web from "../src/images/1.png";
 const Common = (props) => {
     return (
         <>
-            <section id='header' className='d-flex align-items-center'>
+            <section id='header' className='d-flex align-items-center my-5'>
                 <div className='container-fluid nav_bg'>
                     <div className='row'>
-                        <div className='col-10 mx-auto'>
+                        <div className='col-10 mx-auto '>
                             <div className='row '>
                                 <div className='col-md-6 pe-5 pe-lg-0 order-2 order-lg-1  d-flex justify-content-center flex-column '>
                                     <h1>
@@ -19,7 +19,7 @@ const Common = (props) => {
                                     <h2 className='my-3'>
                                         {props.para}
                                     </h2>
-                                    <div className='ms-3 my-3'>
+                                    <div className='ms-3 '>
                                         <NavLink to={props.visit} className='btn-get-started'>{props.btnname}</NavLink>
                                     </div>
                                 </div>
